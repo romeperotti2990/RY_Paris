@@ -59,6 +59,27 @@ section {
     border-bottom: 1px solid #eee;
 }
 
+section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.8;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#intro {
+    background-color: #dadfea;
+}
+
+#intro h3 {
+    margin-top: 0;
+}
+
 h3 {
     font-size: 3rem;
     margin-bottom: 10px;
