@@ -120,6 +120,30 @@ blockquote {
   
 }
 
+.recipe {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.recipe ul {
+    display: inline;
+    list-style: inside;
+}
+
+#ingredients, #directions {
+    flex: 1;
+    max-width: 50%;
+}
+
+.recipe ul, .recipe ol {
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
 
 section ul {
     list-style: none;
